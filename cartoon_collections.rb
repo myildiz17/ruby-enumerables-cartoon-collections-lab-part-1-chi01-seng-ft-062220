@@ -3,7 +3,7 @@ def greet_characters(array)
   #
   # Print a custom greeting for each element
   array.each do |element|
-    p "Hello #{element}!"
+    puts "Hello #{element}!"
   end
 end
 
@@ -11,5 +11,5 @@ def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
   # Print a numbered list of each element
-  array.each_with_index {|el,index| puts "#{index}. #{el}"}
+  array.each_with_index {|el,index| p "#{index}. #{el}"}
 end
