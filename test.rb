@@ -1,5 +1,5 @@
 a=["ali","veli"]
 
-a.each do |el|
-  puts "Hello #{el}!"
+a.each_with_index {|el,index| puts "#{index}.#{el}"} 
+  
 end
